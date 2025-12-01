@@ -1,0 +1,70 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Variables */
+:root{
+  --bg: #121212;
+  --surface: #151515;
+  --text: #ffffff;
+  --muted: #b7b7b7;
+  --accent: #ffff82;
+  --page-pad: 30px;
+}
+
+/* Page */
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--text);
+    margin: 0;
+    padding: var(--page-pad);
+    background-color: var(--bg);
+    line-height: 1.4;
+}
+
+header {
+    font-size: clamp(2rem, 6vw, 4rem);
+    background-color: var(--surface);
+    padding: 18px 20px;
+    margin: -30px -30px 10px -30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+    background-color: var(--surface);
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.06);
+}
+
+.one { font-size: small; }
+.one p { margin: 0; font-size: 0.95rem; line-height: 1.2; text-align: left; color: var(--text); }
+h1 {
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500;
+    font-size: 65px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #ffff82;
+    text-align: center;
+}
